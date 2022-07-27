@@ -1,2 +1,5 @@
 case_id,slide_id,real_slide_id,label
-patient_3,7817_9793,7817_9793,subtype_a
+patient_11,3505,3505,subtype_b
+patient_18,4176,4176,subtype_c
+patient_12,4530,4530,subtype_c
+patient_13,7197,7197,subtype_b
