@@ -1,4 +1,3 @@
 case_id,slide_id,real_slide_id,label,process,status,seg_level,sthresh,mthresh,close,use_otsu,keep_ids,exclude_ids,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn,bag_size,Pred_0,p_0,Pred_1,p_1,Pred_2,p_2
-patient_1,7816_3476,7816_3476,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,752.0,subtype_c,0.9964163303375244,subtype_b,0.00224606366828084,subtype_a,0.0013376603601500392
-patient_2,7817_8509,7817_8509,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,,,,,,,
+patient_2,7817_8509,7817_8509,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,3546.0,subtype_c,0.8992317318916321,subtype_b,0.06863739341497421,subtype_a,0.03213096410036087
 patient_3,7817_9793,7817_9793,subtype_a,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,,,,,,,

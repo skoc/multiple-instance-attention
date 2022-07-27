@@ -28,10 +28,10 @@ data_arguments:
     subtype_c: 2
 patching_arguments:
   # arguments for patching
-  patch_size: 256
+  patch_size: 1024
   overlap: 0
   patch_level: 0
-  custom_downsample: 10
+  custom_downsample: 1
 model_arguments: 
   # arguments for initializing model from checkpoint
   ckpt_path: example_checkpoints/tcga_kidney_cv_CLAM_75_s1/s_9_checkpoint.pt
