@@ -1,0 +1,49 @@
+data_arguments:
+  data_dir: /DATA/share/datasets/Pannet_WSIs/
+  data_dir_key: source
+  label_dict:
+    LSCC: 1
+    LUAD: 0
+  preset: presets/bwh_biopsy.csv
+  process_list: process_list_autogen_left2.csv
+  slide_ext: .tiff
+exp_arguments:
+  batch_size: 128
+  n_classes: 3
+  production_save_dir: heatmaps/heatmap_production_results
+  raw_save_dir: heatmaps/heatmap_raw_results
+  save_exp_code: HEATMAP_OUTPUT
+heatmap_arguments:
+  alpha: 0.4
+  binarize: false
+  binary_thresh: -1
+  blank_canvas: false
+  blur: false
+  calc_heatmap: true
+  cmap: jet
+  custom_downsample: 1
+  save_ext: jpg
+  save_orig: true
+  use_center_shift: true
+  use_ref_scores: true
+  use_roi: false
+  vis_level: 1
+model_arguments:
+  ckpt_path: example_checkpoints/tcga_kidney_cv_mMIL_100_s1/s_9_checkpoint.pt
+  drop_out: true
+  initiate_fn: initiate_model
+  model_size: small
+  model_type: mil
+  n_classes: 3
+patching_arguments:
+  custom_downsample: 1
+  overlap: 0.5
+  patch_level: 0
+  patch_size: 256
+sample_arguments:
+  samples:
+  - k: 15
+    mode: topk
+    name: topk_high_attention
+    sample: true
+    seed: 1

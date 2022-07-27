@@ -1,0 +1,4 @@
+,train,val,test
+subtype_a,5,1,1
+subtype_b,7,0,0
+subtype_c,5,0,0

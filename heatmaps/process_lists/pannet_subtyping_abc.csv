@@ -1,0 +1,20 @@
+case_id,slide_id,real_slide_id,label
+patient_0,2954,2954,subtype_b
+patient_1,7816_3476,7816_3476,subtype_b
+patient_2,7817_8509,7817_8509,subtype_b
+patient_3,7817_9793,7817_9793,subtype_a
+patient_4,9346,9346,subtype_b
+patient_5,11670,11670,subtype_c
+patient_6,12801,12801,subtype_a
+patient_7,HE__20211011_154613,12422,subtype_a
+patient_8,HE__20211011_155001,7152,subtype_a
+patient_9,HE__20211011_155247,7340,subtype_a
+patient_17,HE__20211011_160026,5263,subtype_c
+patient_10,HE__20211011_161232,9764,subtype_b
+patient_11,3505,3505,subtype_b
+patient_18,4176,4176,subtype_c
+patient_12,4530,4530,subtype_c
+patient_13,7197,7197,subtype_b
+patient_14,HE__20211011_155722,5224,subtype_b
+patient_15,HE__20211011_160350_(3),6709,subtype_c
+patient_16,HE__20211011_160814 (1),5165,subtype_b

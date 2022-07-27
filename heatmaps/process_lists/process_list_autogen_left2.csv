@@ -1,0 +1,8 @@
+slide_id,process,status,seg_level,sthresh,mthresh,close,use_otsu,keep_ids,exclude_ids,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn
+HE__20211011_155001.tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_155247.tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_155722.tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_160026.tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_160350_(3).tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_160814 (1).tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt
+HE__20211011_161232.tiff,0,processed,6,15,11,2,False,none,none,1.0,1.0,2,6,50,True,four_pt

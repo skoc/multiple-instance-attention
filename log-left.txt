@@ -1,0 +1,430 @@
+initializing dataset
+loading model checkpoint
+
+progress: 0/13
+7816_3476
+downsample [1. 1.]
+downsampled_level_dim [121856  94208]
+level_dim [121856  94208]
+name 7816_3476
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/7816_3476.h5: total of 629 batches
+batch 0/629, 0 files processed
+batch 20/629, 2560 files processed
+batch 40/629, 5120 files processed
+batch 60/629, 7680 files processed
+batch 80/629, 10240 files processed
+batch 100/629, 12800 files processed
+batch 120/629, 15360 files processed
+batch 140/629, 17920 files processed
+batch 160/629, 20480 files processed
+batch 180/629, 23040 files processed
+batch 200/629, 25600 files processed
+batch 220/629, 28160 files processed
+batch 240/629, 30720 files processed
+batch 260/629, 33280 files processed
+batch 280/629, 35840 files processed
+batch 300/629, 38400 files processed
+batch 320/629, 40960 files processed
+batch 340/629, 43520 files processed
+batch 360/629, 46080 files processed
+batch 380/629, 48640 files processed
+batch 400/629, 51200 files processed
+batch 420/629, 53760 files processed
+batch 440/629, 56320 files processed
+batch 460/629, 58880 files processed
+batch 480/629, 61440 files processed
+batch 500/629, 64000 files processed
+batch 520/629, 66560 files processed
+batch 540/629, 69120 files processed
+batch 560/629, 71680 files processed
+batch 580/629, 74240 files processed
+batch 600/629, 76800 files processed
+batch 620/629, 79360 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/7816_3476.h5 took 1450.2315514087677 s
+features size:  (80467, 1024)
+coordinates size:  (80467, 2)
+
+progress: 1/13
+7817-11902
+downsample [1. 1.]
+downsampled_level_dim [94208 91136]
+level_dim [94208 91136]
+name 7817-11902
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/7817-11902.h5: total of 655 batches
+batch 0/655, 0 files processed
+batch 20/655, 2560 files processed
+batch 40/655, 5120 files processed
+batch 60/655, 7680 files processed
+batch 80/655, 10240 files processed
+batch 100/655, 12800 files processed
+batch 120/655, 15360 files processed
+batch 140/655, 17920 files processed
+batch 160/655, 20480 files processed
+batch 180/655, 23040 files processed
+batch 200/655, 25600 files processed
+batch 220/655, 28160 files processed
+batch 240/655, 30720 files processed
+batch 260/655, 33280 files processed
+batch 280/655, 35840 files processed
+batch 300/655, 38400 files processed
+batch 320/655, 40960 files processed
+batch 340/655, 43520 files processed
+batch 360/655, 46080 files processed
+batch 380/655, 48640 files processed
+batch 400/655, 51200 files processed
+batch 420/655, 53760 files processed
+batch 440/655, 56320 files processed
+batch 460/655, 58880 files processed
+batch 480/655, 61440 files processed
+batch 500/655, 64000 files processed
+batch 520/655, 66560 files processed
+batch 540/655, 69120 files processed
+batch 560/655, 71680 files processed
+batch 580/655, 74240 files processed
+batch 600/655, 76800 files processed
+batch 620/655, 79360 files processed
+batch 640/655, 81920 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/7817-11902.h5 took 1595.8900558948517 s
+features size:  (83761, 1024)
+coordinates size:  (83761, 2)
+
+progress: 2/13
+7817_8509
+downsample [1. 1.]
+downsampled_level_dim [98304 92160]
+level_dim [98304 92160]
+name 7817_8509
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/7817_8509.h5: total of 507 batches
+batch 0/507, 0 files processed
+batch 20/507, 2560 files processed
+batch 40/507, 5120 files processed
+batch 60/507, 7680 files processed
+batch 80/507, 10240 files processed
+batch 100/507, 12800 files processed
+batch 120/507, 15360 files processed
+batch 140/507, 17920 files processed
+batch 160/507, 20480 files processed
+batch 180/507, 23040 files processed
+batch 200/507, 25600 files processed
+batch 220/507, 28160 files processed
+batch 240/507, 30720 files processed
+batch 260/507, 33280 files processed
+batch 280/507, 35840 files processed
+batch 300/507, 38400 files processed
+batch 320/507, 40960 files processed
+batch 340/507, 43520 files processed
+batch 360/507, 46080 files processed
+batch 380/507, 48640 files processed
+batch 400/507, 51200 files processed
+batch 420/507, 53760 files processed
+batch 440/507, 56320 files processed
+batch 460/507, 58880 files processed
+batch 480/507, 61440 files processed
+batch 500/507, 64000 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/7817_8509.h5 took 1165.6330289840698 s
+features size:  (64809, 1024)
+coordinates size:  (64809, 2)
+
+progress: 3/13
+7817_9793
+downsample [1. 1.]
+downsampled_level_dim [152064  86528]
+level_dim [152064  86528]
+name 7817_9793
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/7817_9793.h5: total of 682 batches
+batch 0/682, 0 files processed
+batch 20/682, 2560 files processed
+batch 40/682, 5120 files processed
+batch 60/682, 7680 files processed
+batch 80/682, 10240 files processed
+batch 100/682, 12800 files processed
+batch 120/682, 15360 files processed
+batch 140/682, 17920 files processed
+batch 160/682, 20480 files processed
+batch 180/682, 23040 files processed
+batch 200/682, 25600 files processed
+batch 220/682, 28160 files processed
+batch 240/682, 30720 files processed
+batch 260/682, 33280 files processed
+batch 280/682, 35840 files processed
+batch 300/682, 38400 files processed
+batch 320/682, 40960 files processed
+batch 340/682, 43520 files processed
+batch 360/682, 46080 files processed
+batch 380/682, 48640 files processed
+batch 400/682, 51200 files processed
+batch 420/682, 53760 files processed
+batch 440/682, 56320 files processed
+batch 460/682, 58880 files processed
+batch 480/682, 61440 files processed
+batch 500/682, 64000 files processed
+batch 520/682, 66560 files processed
+batch 540/682, 69120 files processed
+batch 560/682, 71680 files processed
+batch 580/682, 74240 files processed
+batch 600/682, 76800 files processed
+batch 620/682, 79360 files processed
+batch 640/682, 81920 files processed
+batch 660/682, 84480 files processed
+batch 680/682, 87040 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/7817_9793.h5 took 1676.1600019931793 s
+features size:  (87175, 1024)
+coordinates size:  (87175, 2)
+
+progress: 4/13
+9346
+downsample [1. 1.]
+downsampled_level_dim [180224  97792]
+level_dim [180224  97792]
+name 9346
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/9346.h5: total of 806 batches
+batch 0/806, 0 files processed
+batch 20/806, 2560 files processed
+batch 40/806, 5120 files processed
+batch 60/806, 7680 files processed
+batch 80/806, 10240 files processed
+batch 100/806, 12800 files processed
+batch 120/806, 15360 files processed
+batch 140/806, 17920 files processed
+batch 160/806, 20480 files processed
+batch 180/806, 23040 files processed
+batch 200/806, 25600 files processed
+batch 220/806, 28160 files processed
+batch 240/806, 30720 files processed
+batch 260/806, 33280 files processed
+batch 280/806, 35840 files processed
+batch 300/806, 38400 files processed
+batch 320/806, 40960 files processed
+batch 340/806, 43520 files processed
+batch 360/806, 46080 files processed
+batch 380/806, 48640 files processed
+batch 400/806, 51200 files processed
+batch 420/806, 53760 files processed
+batch 440/806, 56320 files processed
+batch 460/806, 58880 files processed
+batch 480/806, 61440 files processed
+batch 500/806, 64000 files processed
+batch 520/806, 66560 files processed
+batch 540/806, 69120 files processed
+batch 560/806, 71680 files processed
+batch 580/806, 74240 files processed
+batch 600/806, 76800 files processed
+batch 620/806, 79360 files processed
+batch 640/806, 81920 files processed
+batch 660/806, 84480 files processed
+batch 680/806, 87040 files processed
+batch 700/806, 89600 files processed
+batch 720/806, 92160 files processed
+batch 740/806, 94720 files processed
+batch 760/806, 97280 files processed
+batch 780/806, 99840 files processed
+batch 800/806, 102400 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/9346.h5 took 1931.699767589569 s
+features size:  (103147, 1024)
+coordinates size:  (103147, 2)
+
+progress: 5/13
+HE__20211011_154613
+downsample [1. 1.]
+downsampled_level_dim [159232  91648]
+level_dim [159232  91648]
+name HE__20211011_154613
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/HE__20211011_154613.h5: total of 816 batches
+batch 0/816, 0 files processed
+batch 20/816, 2560 files processed
+batch 40/816, 5120 files processed
+batch 60/816, 7680 files processed
+batch 80/816, 10240 files processed
+batch 100/816, 12800 files processed
+batch 120/816, 15360 files processed
+batch 140/816, 17920 files processed
+batch 160/816, 20480 files processed
+batch 180/816, 23040 files processed
+batch 200/816, 25600 files processed
+batch 220/816, 28160 files processed
+batch 240/816, 30720 files processed
+batch 260/816, 33280 files processed
+batch 280/816, 35840 files processed
+batch 300/816, 38400 files processed
+batch 320/816, 40960 files processed
+batch 340/816, 43520 files processed
+batch 360/816, 46080 files processed
+batch 380/816, 48640 files processed
+batch 400/816, 51200 files processed
+batch 420/816, 53760 files processed
+batch 440/816, 56320 files processed
+batch 460/816, 58880 files processed
+batch 480/816, 61440 files processed
+batch 500/816, 64000 files processed
+batch 520/816, 66560 files processed
+batch 540/816, 69120 files processed
+batch 560/816, 71680 files processed
+batch 580/816, 74240 files processed
+batch 600/816, 76800 files processed
+batch 620/816, 79360 files processed
+batch 640/816, 81920 files processed
+batch 660/816, 84480 files processed
+batch 680/816, 87040 files processed
+batch 700/816, 89600 files processed
+batch 720/816, 92160 files processed
+batch 740/816, 94720 files processed
+batch 760/816, 97280 files processed
+batch 780/816, 99840 files processed
+batch 800/816, 102400 files processed
+
+computing features for data/outputs-bwh_biopsy/features-bwh_biopsy/h5_files/HE__20211011_154613.h5 took 1986.9917385578156 s
+features size:  (104354, 1024)
+coordinates size:  (104354, 2)
+
+progress: 6/13
+HE__20211011_155001
+downsample [1. 1.]
+downsampled_level_dim [188416  98816]
+level_dim [188416  98816]
+name HE__20211011_155001
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/HE__20211011_155001.h5: total of 1106 batches
+initializing dataset
+loading model checkpoint
+
+progress: 0/7
+HE__20211011_155001
+downsample [1. 1.]
+downsampled_level_dim [188416  98816]
+level_dim [188416  98816]
+name HE__20211011_155001
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/HE__20211011_155001.h5: total of 1106 batches
+initializing dataset
+loading model checkpoint
+
+progress: 0/7
+HE__20211011_155001
+downsample [1. 1.]
+downsampled_level_dim [188416  98816]
+level_dim [188416  98816]
+name HE__20211011_155001
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/HE__20211011_155001.h5: total of 1416 batches
+initializing dataset
+loading model checkpoint
+
+progress: 0/7
+HE__20211011_155001
+downsample [1. 1.]
+downsampled_level_dim [188416  98816]
+level_dim [188416  98816]
+name HE__20211011_155001
+patch_level 0
+patch_size 1024
+save_path data/outputs-bwh_biopsy/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing data/outputs-bwh_biopsy/patches/HE__20211011_155001.h5: total of 2212 batches
