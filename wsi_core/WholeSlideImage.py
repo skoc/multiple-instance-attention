@@ -562,8 +562,9 @@ class WholeSlideImage(object):
 
         ###### normalize filtered scores ######
         if convert_to_percentiles:
+            print(f"[START] to_percentiles...")
             scores = to_percentiles(scores) 
-
+        print(f"[Done] to_percentiles!")
         scores /= 100
         
         ######## calculate the heatmap of raw attention scores (before colormap) 
