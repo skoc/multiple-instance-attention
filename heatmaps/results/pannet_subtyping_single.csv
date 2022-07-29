@@ -1,2 +1,6 @@
 case_id,slide_id,real_slide_id,label,process,status,seg_level,sthresh,mthresh,close,use_otsu,keep_ids,exclude_ids,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn,bag_size,Pred_0,p_0,Pred_1,p_1,Pred_2,p_2
-patient_13,7197,7197,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,7486.0,subtype_c,0.8778706789016724,subtype_b,0.09080024808645248,subtype_a,0.031329020857810974
+patient_17,HE__20211011_160026,5263,subtype_c,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,4011.0,subtype_c,0.9661718010902405,subtype_b,0.028600171208381653,subtype_a,0.005228005815297365
+patient_10,HE__20211011_161232,9764,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,8830.0,subtype_c,0.9802567362785339,subtype_b,0.019365884363651276,subtype_a,0.00037735557998530567
+patient_14,HE__20211011_155722,5224,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,11287.0,subtype_c,0.9079077243804932,subtype_b,0.07176824659109116,subtype_a,0.020324045792222023
+patient_15,HE__20211011_160350_(3),6709,subtype_c,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,8956.0,subtype_c,0.993523359298706,subtype_b,0.005745330359786749,subtype_a,0.0007313970127142966
+patient_16,HE__20211011_160814 (1),5165,subtype_b,1,tbp,-1,15,11,2,False,none,none,1.0,1.0,2,-1,50,True,four_pt,3181.0,subtype_c,0.9872772097587585,subtype_b,0.012221289798617363,subtype_a,0.0005014471244066954
