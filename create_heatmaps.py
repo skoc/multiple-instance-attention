@@ -355,7 +355,7 @@ if __name__ == '__main__':
 			pass
 		else:
 			heatmap = drawHeatmap(scores, coords, slide_path, wsi_object=wsi_object, cmap=heatmap_args.cmap, alpha=heatmap_args.alpha, use_holes=True, binarize=False, vis_level=-1, blank_canvas=False,
-							thresh=-1, patch_size = vis_patch_size, convert_to_percentiles=False)
+							thresh=-1, patch_size = vis_patch_size, convert_to_percentiles=True)
 		
 			heatmap.save(os.path.join(r_slide_save_dir, '{}_blockmap.png'.format(slide_id)))
 			del heatmap
