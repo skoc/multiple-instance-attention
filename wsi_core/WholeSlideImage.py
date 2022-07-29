@@ -574,6 +574,7 @@ class WholeSlideImage(object):
         overlay = np.full(np.flip(region_size), 0).astype(float)
         counter = np.full(np.flip(region_size), 0).astype(np.uint16)      
         count = 0
+        print(f"[START] Overlay and Counter arrays...")
         for idx in range(len(coords)):
             score = scores[idx]
             coord = coords[idx]
@@ -587,7 +588,8 @@ class WholeSlideImage(object):
             overlay[coord[1]:coord[1]+patch_size[1], coord[0]:coord[0]+patch_size[0]] += score
             # accumulate counter
             counter[coord[1]:coord[1]+patch_size[1], coord[0]:coord[0]+patch_size[0]] += 1
-
+        print(f"[DONE] Overlay and Counter arrays!")
+        
         if binarize:
             print('\nbinarized tiles based on cutoff of {}'.format(threshold))
             print('identified {}/{} patches as positive'.format(count, len(coords)))
@@ -596,24 +598,32 @@ class WholeSlideImage(object):
         zero_mask = counter == 0
 
         if binarize:
+            print(f"[START] Binarize...")
             overlay[~zero_mask] = np.around(overlay[~zero_mask] / counter[~zero_mask])
         else:
+            print(f"[START] Off binarize...")
             overlay[~zero_mask] = overlay[~zero_mask] / counter[~zero_mask]
+        print(f"[Done] Binarize...")
         del counter 
         if blur:
+            print(f"[START] Blur...")
             overlay = cv2.GaussianBlur(overlay,tuple((patch_size * (1-overlap)).astype(int) * 2 +1),0)  
-
+            print(f"[DONE] Blur!")
         if segment:
+            print(f"[START] Segment...")
             tissue_mask = self.get_seg_mask(region_size, scale, use_holes=use_holes, offset=tuple(top_left))
             # return Image.fromarray(tissue_mask) # tissue mask
-        
+            print(f"[DONE] Segment!")
         if not blank_canvas:
             # downsample original image and use as canvas
+            print(f"[START] not blank canvas...")
             img = np.array(self.wsi.read_region(top_left, vis_level, region_size).convert("RGB"))
+            print(f"[DONE] not blank canvas!")
         else:
             # use blank canvas
+            print(f"[START] blank canvas...")
             img = np.array(Image.new(size=region_size, mode="RGB", color=(255,255,255))) 
-
+            print(f"[DONE] blank canvas!")
         #return Image.fromarray(img) #raw image
 
         print('\ncomputing heatmap image')
